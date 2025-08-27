@@ -1,0 +1,208 @@
+/* General Reset */
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+body {
+  font-family: "Inter", "Segoe UI", Tahoma, Geneva, Verdana, sans-serif;
+  background: #dbe0ee;
+  color: #1a1a1a;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  min-height: 100vh;
+}
+
+/* App Container */
+.app {
+  text-align: center;
+  padding: 2rem;
+  width: 100%;
+  max-width: 900px;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+
+/* Title + Subtitle */
+.title {
+  font-size: 2.6rem;
+  font-weight: 700;
+  margin-bottom: 0.5rem;
+  color: #111827;
+}
+
+.subtitle {
+  color: #6b7280;
+  margin-bottom: 2rem;
+  font-size: 1.1rem;
+}
+
+
+/* Search Bar (Modern)   */
+
+.search-bar {
+  display: flex;
+  align-items: center;
+  width: 100%;
+  max-width: 650px;
+  background: #fff;
+  padding: 0.4rem;
+  border-radius: 50px;
+  box-shadow: 0 4px 12px rgba(0,0,0,0.08);
+}
+
+.search-bar input {
+  flex: 1;
+  border: none;
+  outline: none;
+  font-size: 1rem;
+  padding: 0.8rem 1.2rem;
+  border-radius: 50px;
+  background: transparent;
+  color: #111;
+}
+
+.search-bar input::placeholder {
+  color: #9ca3af;
+}
+
+.search-bar button {
+  padding: 0.8rem 1.5rem;
+  border: none;
+  background: #2563eb;
+  color: white;
+  font-weight: 600;
+  border-radius: 50px;
+  cursor: pointer;
+  transition: all 0.3s ease;
+  margin-left: 0.5rem;
+}
+
+.search-bar button:hover {
+  background: #1e4fd8;
+  transform: translateY(-2px);
+}
+
+
+/* Word Card  */
+
+.word-card {
+  background: #fff;
+  padding: 2rem;
+  margin-top: 2rem;
+  max-width: 700px;
+  width: 100%;
+  border-radius: 16px;
+  box-shadow: 0 8px 20px rgba(0,0,0,0.08);
+  text-align: left;
+  transition: all 0.3s ease;
+}
+
+.word-card:hover {
+  transform: translateY(-2px);
+  box-shadow: 0 12px 28px rgba(0,0,0,0.12);
+}
+
+.word {
+  font-size: 2.2rem;
+  font-weight: 700;
+  margin-bottom: 0.4rem;
+  color: #111827;
+}
+
+.pos {
+  display: inline-block;
+  margin-top: 0.3rem;
+  padding: 0.3rem 0.9rem;
+  background: #e0e7ff;
+  color: #3730a3;
+  border-radius: 6px;
+  font-size: 0.85rem;
+  font-weight: 600;
+}
+
+.divider {
+  margin: 1.2rem 0;
+  border: none;
+  border-top: 1px solid #e5e7eb;
+}
+
+
+/* Sections  */
+
+.section {
+  margin-bottom: 1.3rem;
+}
+
+.section-title {
+  display: flex;
+  align-items: center;
+  font-size: 1rem;
+  font-weight: 600;
+  color: #111827;
+  margin-bottom: 0.5rem;
+}
+
+.section-title .icon {
+  margin-right: 8px;
+  color: #2563eb;
+  font-size: 1.1rem;
+}
+
+.section-title.purple .icon {
+  color: #8b5cf6;
+}
+
+/* Synonyms */
+.synonyms {
+  margin-top: 0.6rem;
+}
+
+.tag {
+  background: #dcfce7;
+  color: #166534;
+  padding: 0.4rem 0.9rem;
+  border-radius: 999px;
+  margin: 0.25rem;
+  display: inline-block;
+  font-size: 0.9rem;
+  font-weight: 500;
+}
+
+/* Example Box */
+.example {
+  margin-top: 0.6rem;
+  padding: 1rem 1.2rem;
+  border-left: 4px solid #8b5cf6;
+  background: #f5f3ff;
+  font-style: italic;
+  border-radius: 8px;
+  color: #4b5563;
+}
+
+/* Responsive */
+@media (max-width: 650px) {
+  .search-bar {
+    flex-direction: column;
+    border-radius: 14px;
+    padding: 0.6rem;
+  }
+
+  .search-bar input {
+    border-radius: 10px;
+    margin-bottom: 0.6rem;
+    width: 100%;
+  }
+
+  .search-bar button {
+    width: 100%;
+    border-radius: 10px;
+  }
+
+  .word-card {
+    padding: 1.6rem;
+  }
+}
