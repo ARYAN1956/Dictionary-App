@@ -39,38 +39,29 @@
  ┣ 📜 README.md
 
 # 📸 Screenshots
+1. <img width="1242" height="935" alt="image" src="https://github.com/user-attachments/assets/f7dbbf4a-d9cb-4eb8-a473-d2c47b0cea37" />
+
+2. <img width="866" height="857" alt="image" src="https://github.com/user-attachments/assets/13b78290-27ab-4d0d-841e-2caf056583c0" />
+
+
 
 # ⚙️ Installation & Setup
 
-1. Clone the repo
+# 1. Clone the repo
 
 git clone https://github.com/your-username/dictionary-app.git
 
-2. Navigate to project folder
+# 2. Navigate to project folder
 
 cd dictionary-app
 
-3. Install dependencies
+# 3. Install dependencies
 
 npm install
 
-4. Run the app locally
+# 4. Run the app locally
 
 npm start
-
-
-
- 
-
-
-
-
-
-
-
-
-
-
 
 # React + Vite
 
