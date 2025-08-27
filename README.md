@@ -44,7 +44,7 @@
 2. <img width="866" height="857" alt="image" src="https://github.com/user-attachments/assets/13b78290-27ab-4d0d-841e-2caf056583c0" />
 
 # 🌐 Live Demo
-- https://vercel.com/aryan1956s-projects/dictionary-app
+- https://dictionary-app-ochre-zeta.vercel.app
 
 # ⚙️ Installation & Setup
 
